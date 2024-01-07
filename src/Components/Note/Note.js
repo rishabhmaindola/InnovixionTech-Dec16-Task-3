@@ -1,5 +1,4 @@
 import React from "react";
-
 import deleteIcon from "../../assets/delete.svg";
 
 import "./Note.css";
@@ -43,6 +42,7 @@ function Note(props) {
   const updateText = (text, id) => {
     debounce(() => props.updateText(text, id));
   };
+
 
   return (
     <div className="note" style={{ backgroundColor: props.note.color }}>

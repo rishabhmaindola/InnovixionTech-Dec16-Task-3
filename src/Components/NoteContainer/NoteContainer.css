@@ -13,3 +13,40 @@
     gap: 20px;
     overflow-y: scroll;
   }
+
+  .note-container-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .note-container-header h2 {
+    margin: 10px;
+    color: #333;
+    display: inline-block;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+ 
+
+  .user-info {
+    margin: 0;
+    margin-right: 40px;
+    padding: 5px;
+    display: flex;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    max-width: 400px; 
+    box-sizing: border-box;
+  }
+  
+  .user-info h3 {
+    margin: auto;
+    text-align: center;
+    color: #666;
+    white-space: nowrap; 
+    overflow: visible; 
+    text-overflow: ellipsis;
+  }
+  
